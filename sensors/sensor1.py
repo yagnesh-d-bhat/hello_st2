@@ -1,6 +1,7 @@
 import eventlet
 
 from st2reactor.sensor.base import Sensor
+import http.client
 
 
 class HelloSensor(Sensor):
